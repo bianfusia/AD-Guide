@@ -12,7 +12,7 @@ Get-ADUser -Filter 'Name -like "*stevens"' -Server za.tryhackme.com | Format-Tab
 
 - Enumerate AD group
 ```
-Get-ADGroup -Identity Administrators -Server za.tryhackme.com
+Get-ADGroup -Identity Administrators -Server za.tryhackme.com -Properties *
 ```
 
 - Get AD Group membership
